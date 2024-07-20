@@ -3,7 +3,7 @@
   "logo": "https://telegra.ph/file/7ffa8d18b9b7f1b51a81e.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/QueenArzoo/VCPlayBot",
+  "repository": "https://github.com/BakiHanma0001/VCPlayBot",
   "stack": "container",
   "buildpacks": [
    {
@@ -14,33 +14,37 @@
     "SESSION_NAME": {
       "description": "Pyrogram session string",
       "required": true
+      "value": "BQHBq6EAa6bGEEbYVEycuJPOH9WddDaNcRK95OGfC5jpvbu6V2jUGsJ7Jww0D4ej8EsbNIs9n-5Mqbha5TXjpp_8R3Pw9GJyfVyVpjZLqIoxY_rWMMq7rlftwKlogj_nw4QPzuDfWoORrjMBhK0JpitlqMLaY05b_6zgiRLye0C2tpEQaMAuPbEIcl1_uU81T_kGD1j7Jlol0xA-N6_drccimZNR1Er9fAAAtkcjbvfdhCMOQe3YTFsKGbHyahaQx3dM0krdR_ee_i4rAvB2kP8qeetZBcfYU87XQkjYaQ2C4AIE-U6P0rCws9AL46CXXZTOPZhyLdREriz63s0g7nCsaWSX9QAAAAGjr5bsAA"
     },
     "BOT_TOKEN": {
       "description": "A bot token from @BotFather",
       "required": true
+      "value": "7319569765:AAGhZCLgKKWVEv4-1S4rt4AwGYDZkAs5F-s"
     },
     "BOT_USERNAME": {
       "description": "Your bot's username without @",
       "required": true
+      "value": "SatanXrobo_bot"
     },
     "BOT_NAME": {
       "description": "Your MusicPlayer Bot Name.",
       "required": false,
-      "value": ""
+      "value": "˹sᴀᴛᴀɴ  ꭙ ʀᴏʙᴏᴛ™ ♡゙"
     },
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "AwesomeSupport"
+      "value": "Satan_Fucker"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "VCPlayBot2.0"
+      "value": "VCPlayBot1.0"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
       "required": true
+      "value": "Baki_X_Hanma"
     },
     "ARQ_API_KEY": {
       "description": "Get from @ARQRobot.",
@@ -55,11 +59,12 @@
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "LaylaList"
+      "value": "Satan_Network"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
       "required": true
+      "value": "29469601"
     },
     "PMPERMIT": {
       "description": "Change to turn off",
@@ -69,10 +74,12 @@
     "API_HASH": {
       "description": "App hash from my.telegram.org/apps",
       "required": true
+      "value": "c5773359dc095f51b3d57f2f7969c5dc"
     },
     "SUDO_USERS": {
       "description": "List of user IDs counted as admin everywhere (separated by space).",
       "required": true
+      "value": "7041160940"
     },
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
